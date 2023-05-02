@@ -4,3 +4,10 @@ CREATE TABLE item (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO item (title) VALUES ('Stuff'), ('Doodads');
+
+CREATE TABLE unicorn (
+  id int(11) UNSIGNED PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  name varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO unicorn (name) VALUES ('Praline'), ('Crunchy'), ('Craquante');
